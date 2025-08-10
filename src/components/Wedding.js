@@ -10,7 +10,7 @@ const Wedding = () => {
   const sections = [
     {
       title: "Our Wedding Day",
-      date: "June 15, 2019",
+      date: "August 20, 2023",
       description: "The most beautiful day of our lives when we became husband and wife",
       icon: <FaRing />
     },
