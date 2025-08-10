@@ -29,7 +29,7 @@ function BackgroundImage() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/our-family-app">
       <BackgroundImage />
       <div className="app">
         <FloatingHearts count={20} />
