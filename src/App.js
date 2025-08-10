@@ -28,8 +28,12 @@ function BackgroundImage() {
 }
 
 function App() {
+   // For GitHub Pages (repo name is 'our-family-app')
+  const repoName = 'family-app'; // Change this to your actual repo name
+  const basename = process.env.NODE_ENV === 'development' ? '/' : `/${repoName}`;
+
   return (
-    <Router basename="/our-family-app">
+    <Router basename={basename}>
       <BackgroundImage />
       <div className="app">
         <FloatingHearts count={20} />
