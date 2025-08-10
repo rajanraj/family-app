@@ -1,0 +1,93 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  overflow-x: hidden;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* Background Image - Fixed Solution */
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url('../assets//images//DSC_0666.JPG') center/cover no-repeat;
+  z-index: -1;
+  opacity: 0.9;
+}
+.content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Family Members */
+.family-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.member-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 2rem;
+  min-width: 200px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.member-card h2 {
+  font-size: 2rem;
+  margin: 0 0 0.5rem;
+  color: #ff6b6b;
+}
+
+.member-card p {
+  font-size: 1.2rem;
+  margin: 0;
+  font-style: italic;
+}
+
+/* Anniversary Message */
+.anniversary-message {
+  margin-top: 3rem;
+}
+
+.anniversary-message p {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.anniversary-message h3 {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #ff6b6b;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .family-members {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .member-card {
+    width: 80%;
+  }
+}
