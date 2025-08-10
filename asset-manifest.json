@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/family-app/static/css/main.6bc553d7.css",
+    "main.js": "/family-app/static/js/main.32e73e06.js",
+    "static/js/453.45f348a7.chunk.js": "/family-app/static/js/453.45f348a7.chunk.js",
+    "static/media/Engagement.jpg": "/family-app/static/media/Engagement.fb4c9fcdc9cc85509949.jpg",
+    "static/media/family-background-sit.JPG": "/family-app/static/media/family-background-sit.f8b577259fa26c2ec859.JPG",
+    "static/media/Wedding.JPG": "/family-app/static/media/Wedding.4e18122ddb81929c6e0a.JPG",
+    "static/media/First-meet.jpeg": "/family-app/static/media/First-meet.3cd05b3ebe45f558e30e.jpeg",
+    "index.html": "/family-app/index.html",
+    "main.6bc553d7.css.map": "/family-app/static/css/main.6bc553d7.css.map",
+    "main.32e73e06.js.map": "/family-app/static/js/main.32e73e06.js.map",
+    "453.45f348a7.chunk.js.map": "/family-app/static/js/453.45f348a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bc553d7.css",
+    "static/js/main.32e73e06.js"
+  ]
+}
