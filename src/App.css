@@ -27,6 +27,22 @@
   background-position: center 20%;
 }
 
+.background-image.anniversary-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  opacity: 1;
+  background-image: url('./assets/images/First-Anniversary.jpeg');
+  background-size: cover;
+  background-position: center 37%; /* Moves image down for clearer face view */
+  background-repeat: no-repeat;
+}
+
+
+
 /* Family Members */
 .family-members {
   display: flex;
